@@ -17,6 +17,6 @@
     }
 
     .card {
-        @apply p-6 flex shadow-xl rounded-lg gap-3 text-[#23155B] font-medium text-base
+        @apply p-6 flex shadow-md rounded-lg gap-3 text-[#23155B] font-medium text-lg
     }
 }

@@ -17,6 +17,18 @@
     }
 
     .card {
-        @apply p-6 flex shadow-md rounded-lg gap-3 text-[#23155B] font-medium text-lg
+        @apply p-6 flex shadow-md rounded-lg gap-3 text-[#23155B] font-medium text-lg items-center relative z-50 bg-white
+    }
+}
+
+
+@layer utilities {
+    .bg-projects {
+        background-image: linear-gradient(to bottom, rgba(247, 247, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./images/Projects/bg.png');
+        background-size: cover;
+      }
+    .bg-investors {
+        background-image: linear-gradient(to bottom, rgba(247, 247, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./images/Investors/bg.png');
+        background-size: cover;
     }
 }

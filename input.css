@@ -28,7 +28,7 @@
         background-size: cover;
       }
     .bg-investors {
-        background-image: linear-gradient(to bottom, rgba(247, 247, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./images/Investors/bg.png');
+        background-image: linear-gradient(to bottom, rgba(247, 247, 255, 0.5), rgba(255, 255, 255, 1)), url('./images/Investors/bg.png');
         background-size: cover;
     }
 }
